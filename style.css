@@ -1,0 +1,85 @@
+#test {
+background-image: url(http://miam-images.m.i.pic.centerblog.net/d138d0c9.jpg);
+width: 650px;
+height: 750px;
+margin: 100px;
+
+}
+
+
+
+
+#header, #article, #footer {
+  margin: 25px;
+  font-family: Trebuchet;
+  background-image:linear-gradient(grey, #4B92BF);
+}
+
+#header {
+  font-family: Teko, Trebuchet;
+  width: 590px;
+  border: 4px outset;
+
+}
+#article {
+
+	height: 270px;
+  width: 560px;
+  padding: 15px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+  border: 4px outset;
+
+
+}
+
+
+#footer {
+
+ height: 80px;
+ width: 550px;
+ padding: 20px;
+ font-size: 25px;
+ border: 4px outset;
+ font-style: italic;
+ text-transform: uppercase;
+ text-decoration: underline;
+ text-decoration-style: dashed;
+
+
+}
+
+
+
+
+/* placer éléments du header */
+
+.name {
+  font-size: 30px;
+  float: left;
+  margin: 25px 0 0 25px;
+  padding: 25px
+}
+
+/* placer éléments du article*/
+
+.sec-droite {
+  text-align: right;
+}
+
+/* placer éléments du footer */
+
+.logoa {
+  position:absolute;
+  top: 680px;
+  right:250px;
+  width:1200px;
+}
+
+.logob {
+  position:absolute;
+  top: 670px;
+  right:150px;
+  width:1200px;
+}
